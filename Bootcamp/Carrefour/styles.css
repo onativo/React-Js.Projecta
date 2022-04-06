@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 600px;
+    margin: auto;
+}
+#title{
+    text-transform: uppercase;
+    text-align: center;
+}
+#title, .subtitle, .post_title{
+    color: brown;
+}
+.subtitle{
+    text-align: center;
+}
+.link{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.post_title{
+    font-size: 16;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.post{
+    background-color: rgb(252, 222, 168);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px dotted;
+    border-color: black;
+    border-radius: 12px;
+    width: 600px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 12px;
+}
