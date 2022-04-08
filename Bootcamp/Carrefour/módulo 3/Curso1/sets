@@ -1,0 +1,19 @@
+//sets são estruturas que armazenam apenas valores únicos
+
+const mySet = new Set();
+mySet.add(1);
+mySet.add(4);
+//adicionar valores
+
+mySet.has(1);
+//verifica se '1' está no set
+mySet.has(3);
+//false pois '3' não está no set
+
+mySet.delete(4);
+//deleta valor que está no set
+
+//sets vs arrays:
+//possui valores únicos
+//em vez da propriedade lenght, consulta-se o múmero de registros pela propriedade .size
+//não possui os métodos map, filter, reduce...
