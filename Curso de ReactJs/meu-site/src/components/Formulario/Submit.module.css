@@ -1,0 +1,20 @@
+.btn{
+  background-color: #222;
+  color: #FFF;
+  border-radius: 20px;
+  padding: .5em 1em;
+  transition: 0.4s;
+  width: 50%;
+  align-self: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover{
+  color:#222;
+  background-color: #ffbb33;
+  -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}

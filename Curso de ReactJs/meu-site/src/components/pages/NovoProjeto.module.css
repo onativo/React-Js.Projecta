@@ -1,0 +1,13 @@
+.novo_projeto{
+  width: 450px;
+  margin: auto;
+  padding: 1em;
+
+}
+
+.novo_projeto h1{
+  margin-bottom: .6em;
+}
+.novo_projeto p{
+  color: #7b7b7b;
+}
