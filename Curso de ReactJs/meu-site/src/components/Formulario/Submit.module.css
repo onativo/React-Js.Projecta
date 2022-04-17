@@ -2,13 +2,16 @@
   background-color: #222;
   color: #FFF;
   border-radius: 20px;
-  padding: .5em 1em;
   transition: 0.4s;
-  width: 50%;
   align-self: center;
   text-decoration: none;
   cursor: pointer;
   border: none;
+  font-size: 15px;
+  padding: 10px;
+  size: 20px;
+  min-width: 120px;
+  max-height: 40px;
 }
 
 .btn:hover{

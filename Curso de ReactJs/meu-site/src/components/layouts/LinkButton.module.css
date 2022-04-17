@@ -3,8 +3,14 @@
   background-color: #222;
   color: #FFF;
   border-radius: 20px;
-  padding: .5em 1em;
   transition: 0.4s;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px;
+  size: 20px;
+  min-width: 120px;
+  max-height: 40px;
 }
 
 .btn:hover{

@@ -7,6 +7,7 @@ import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import Projects from './components/pages/Projects';
 import NovoProjeto from './components/pages/NovoProjeto';
+import ProjetoCadastrado from './components/pages/ProjetoCadastrado';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/Contact' element={<Contact/>}/>
             <Route path='/Projects' element={<Projects/>}/>
             <Route path='/NovoProjeto' element={<NovoProjeto/>}/>
+            <Route path='/projects/:id' element={<ProjetoCadastrado/>}/>
           </Routes>
         </Container>
         <Footer />
