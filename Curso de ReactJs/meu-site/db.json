@@ -2,10 +2,10 @@
   "projects": [
     {
       "name": "Um Projeto",
-      "budget": "2546",
+      "budget": "15",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "custo": 0,
       "servicos": [],
