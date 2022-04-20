@@ -68,7 +68,7 @@ function Formulario({handleSubmit, btnText, projectData}){
       </div>
       <div>
         <Select 
-          name='category_id'
+          name='id'
           text='Selecione:'
           options={cat}
           handleOnChange={handleCategory}
