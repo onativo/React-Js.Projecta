@@ -1,11 +1,20 @@
 .project_container{
   padding: 2em;
   width: 100%;
-  max-height: 2%;
 }
 
 .title_container{
   display: flex;
   justify-content: space-between;
   margin-bottom: 2em;
+}
+
+@media screen and (max-width: 412px){
+  .project_container{
+    padding: 8px;
+  }
+  .project_container h1{
+    font-size: 20px;
+    text-align: left;
+  }
 }

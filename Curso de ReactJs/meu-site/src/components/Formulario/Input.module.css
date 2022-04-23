@@ -14,6 +14,9 @@
   padding: 0.5em;
   border-radius: 150px;
   border: none;
+  margin-bottom: 5px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .form_control input::placeholder{

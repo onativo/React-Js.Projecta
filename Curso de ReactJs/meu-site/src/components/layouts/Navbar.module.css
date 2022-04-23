@@ -25,3 +25,25 @@
 .img{
   margin-left: 20px;
 }
+
+/*RESPONSIVO daqui para baixo*/
+
+
+@media screen and (max-width: 400px){
+  .navbar{
+    font-size: 12px;
+  }
+  .navbar img{
+    max-width: 40px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 292px){
+  .navbar{
+    font-size: 10px;
+  }
+  .navbar img{
+    max-width: 30px;
+    margin-left: 5px;
+  }
+}

@@ -9,7 +9,7 @@
 
 .home_container h1{
   font-size: 2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em
 }
 
 .home_container span{
@@ -28,3 +28,31 @@
   width: 350px;
   margin-left: 20px;
 }
+
+/*responsivo daqui pra baixo*/
+@media screen and (max-width: 700px){
+  .home_container h1{
+    text-align: center;
+  }
+  .home_container p{
+    text-align: center;
+  }
+  .home_container img{
+    width: 281px;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .home_container h1{
+    text-align: center;
+  }
+  .home_container p{
+    text-align: center;
+  }
+  .home_container img{
+  width: 280px;
+  }
+}
+
+
+

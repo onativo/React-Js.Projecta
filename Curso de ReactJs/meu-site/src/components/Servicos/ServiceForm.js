@@ -28,7 +28,7 @@ function ServiceForm ({handleSubmit, textBtn, projectData}) {
       />
       <Input
       type='number'
-      text='Custo do seriço'
+      text='Custo do serviço'
       name='custo'
       placeholder='Insira o custo do serviço'
       handleOnChange={handleChange}
@@ -40,7 +40,9 @@ function ServiceForm ({handleSubmit, textBtn, projectData}) {
       placeholder='Detalhes do serviço'
       handleOnChange={handleChange}
       />
-      <Submit text={textBtn}/>
+      <div>
+        <Submit style="margin-top: 5px;" text={textBtn}/>
+      </div>
     </form>
   )
 }

@@ -1,5 +1,5 @@
 .project_details{
-  padding: 2em;
+  padding: 15px;
   width: 100%;
 }
 
@@ -13,9 +13,10 @@
   background-color: #222;
   color: #ffbb33;
   border-radius: 25px;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 2px;
 }
 
 .project_details span{
@@ -56,4 +57,24 @@
 
 .project_info{
   width: 100%;
+}
+
+@media screen and (max-width:400px){
+  .project_details h1{
+    font-size: 25px;
+  }
+  .project_details h2{
+    font-size: 15px;
+  }
+  .project_details span{
+    font-size: 15px;
+  }
+  .project_details p{
+    font-size: 15px;
+    text-align: left;
+  }
+  .project_details{
+    padding: 10px;
+    width: 100%;
+  }
 }

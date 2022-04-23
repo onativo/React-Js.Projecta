@@ -7,7 +7,19 @@
 
 .novo_projeto h1{
   margin-bottom: .6em;
+  text-align: center;
 }
 .novo_projeto p{
   color: #7b7b7b;
+  text-align: center;
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 400px){
+  .novo_projeto h1{
+    font-size: 25px;
+  }
+  .novo_projeto p{
+    font-size: 15px;
+  }
 }
