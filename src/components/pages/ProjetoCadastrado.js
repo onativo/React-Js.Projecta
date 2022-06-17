@@ -1,7 +1,6 @@
 import styles from './ProjetoCadastrado.module.css'
 import {useParams} from 'react-router-dom'
 import {useState, useEffect} from 'react'
-import ProjectCard from '../Projetos/ProjectCard'
 import Loading from '../layouts/Loading'
 import Container from '../layouts/Container'
 import Formulario from '../Projetos/Formulario'
@@ -184,7 +183,7 @@ function ProjetoCadastrado(){
                   />
                 ))
                   
-                }{servicos.length == 0 && <p>Não há serviços cadastrados</p>}
+                }{servicos.length === 0 && <p>Não há serviços cadastrados</p>}
               </Container>
           </Container>
         </div>
