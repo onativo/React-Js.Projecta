@@ -1,5 +1,5 @@
 {
-  "homepage": "https://onativo.github.io/react-projecta",
+  "homepage": "build/",
   "name": "meu-site",
   "version": "0.1.0",
   "private": true,
