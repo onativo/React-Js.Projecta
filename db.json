@@ -1,28 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "teste",
-      "budget": "1256",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "custo": 0,
-      "servicos": [],
-      "id": 2
-    },
-    {
-      "name": "john green",
-      "budget": "1546",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "custo": 0,
-      "servicos": [],
-      "id": 3
-    }
-  ],
+  "projects": [],
   "cat": [
     {
       "id": 1,
